@@ -1,0 +1,11 @@
+[versions]
+libgdx = "1.13.5"
+junit = "5.11.4"
+
+[libraries]
+gdx = { module = "com.badlogicgames.gdx:gdx", version.ref = "libgdx" }
+gdx-backend-lwjgl3 = { module = "com.badlogicgames.gdx:gdx-backend-lwjgl3", version.ref = "libgdx" }
+gdx-platform = { module = "com.badlogicgames.gdx:gdx-platform", version.ref = "libgdx" }
+
+junit-jupiter = { module = "org.junit.jupiter:junit-jupiter", version.ref = "junit" }
+junit-platform-launcher = { module = "org.junit.platform:junit-platform-launcher" }
