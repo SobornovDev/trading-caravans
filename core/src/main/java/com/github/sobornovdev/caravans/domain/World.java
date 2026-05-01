@@ -1,4 +1,4 @@
-package com.github.sobornovdev.caravans;
+package com.github.sobornovdev.caravans.domain;
 
 /**
  * Root aggregate of the simulation.
